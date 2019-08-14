@@ -1,0 +1,5 @@
+print('Valor do aluguel por tempo de uso: 60,00R$ por dia.')
+print('Valor do aluguel por distância percorrida: 0,15R$ por Km.')
+temp = int(input('Qtd de dias com o carro: '))
+dist = float(input('Distância percorrida(Km): '))
+print('Total a pagar pelo aluguel: {:.2f} R$.'.format(temp*60 + dist*0.15))

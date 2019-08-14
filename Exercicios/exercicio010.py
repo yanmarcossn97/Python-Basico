@@ -1,0 +1,7 @@
+n = float(input('Valor em Real(BRS): '))
+print('Valor em Dolar(USD): {:.2f} US$'.format(n/3.76))
+print('Valor em Euro(EUR): {:.2f} E'.format(n/4.2))
+print('Valor em Yuan(CNY): {:.2f} Y'.format(n/0.55))
+print('Valor em Iene(JPY): {:.2f} Y'.format(n/0.035))
+print('Valor em Libra(GBP): {:.2f} L'.format(n/4.71))
+print('Valor em Bitcoin (BTC): {} B'.format(n/36322.82))
